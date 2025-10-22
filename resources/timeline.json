@@ -1,0 +1,5 @@
+[
+  { "at": 0.5, "action": "reveal.nav" },
+  { "at": 1.5, "action": "reveal.buttons" },
+  { "at": 3, "action": "pulse" }
+]

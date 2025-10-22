@@ -1,0 +1,26 @@
+{
+  "name": "@darktriad/renderer",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "framer-motion": "11.2.10",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "zod": "3.23.8"
+  },
+  "devDependencies": {
+    "@types/react": "18.3.4",
+    "@types/react-dom": "18.3.1",
+    "autoprefixer": "10.4.17",
+    "postcss": "8.4.38",
+    "tailwindcss": "3.4.7",
+    "typescript": "5.4.5",
+    "vite": "5.2.11"
+  }
+}

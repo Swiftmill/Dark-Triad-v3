@@ -1,0 +1,5 @@
+[
+  { "id": "hero1", "file": "hero1.mp4", "type": "video", "label": "Incantation I", "overlayIntensity": 0.55 },
+  { "id": "hero2", "file": "hero2.mp4", "type": "video", "label": "Incantation II", "overlayIntensity": 0.5 },
+  { "id": "fallback", "file": "hero-fallback.jpg", "type": "image", "label": "Obelisk Still", "overlayIntensity": 0.65 }
+]
