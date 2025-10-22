@@ -1,0 +1,17 @@
+{
+  "name": "@darktriad/main",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "dist/index.cjs",
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs --dts --sourcemap --out-dir dist --out-extension cjs=.cjs",
+    "watch": "tsup src/index.ts --format cjs --sourcemap --out-dir dist --watch --out-extension cjs=.cjs"
+  },
+  "dependencies": {
+    "electron-store": "9.0.0",
+    "zod": "3.23.8"
+  },
+  "devDependencies": {
+    "tsup": "8.1.0"
+  }
+}
